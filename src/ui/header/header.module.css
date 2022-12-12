@@ -1,0 +1,35 @@
+.label {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.subtitle {
+	font-weight: 700;
+	margin: 1rem 0;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+	.title {
+		font-size: 60px;
+	}
+	.subtitle {
+		font-size: 24px;
+	}
+	.label {
+		font-size: 12px;
+	}
+}
