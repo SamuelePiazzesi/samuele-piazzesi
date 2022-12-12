@@ -39,8 +39,6 @@ main {
 	overflow: scroll;
 	height: calc(100vh - 40px);
 	padding: 24px;
-	background: url("../public/sesso.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 .content {
