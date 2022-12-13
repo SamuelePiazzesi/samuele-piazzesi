@@ -39,6 +39,7 @@ main {
 	overflow: scroll;
 	height: calc(100vh - 40px);
 	padding: 24px;
+	display: flex;
 }
 
 .content {
@@ -48,5 +49,5 @@ main {
 	justify-content: space-evenly;
 	max-width: 968px;
 	margin: auto;
-	height: 100%;
+	flex: auto;
 }
