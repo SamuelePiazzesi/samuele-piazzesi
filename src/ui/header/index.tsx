@@ -6,9 +6,8 @@ const Header = () => {
 			<h5 className={classes.label}>Hi! You are in</h5>
 			<h1 className={classes.title}>Samuele Piazzesi</h1>
 			<div className={classes.subtitle}>
-				<span>Personal</span>
 				<span>🖥️</span>
-				<span>Space</span>
+				<span>Personal Space</span>
 			</div>
 		</header>
 	);
