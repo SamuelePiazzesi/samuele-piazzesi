@@ -6,7 +6,7 @@ export default function Document() {
 			<Head>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<meta title="Samuele Piazzesi Personal Space" />
+
 				<meta
 					name="description"
 					content="Full Stack Engineer who loves build things."
