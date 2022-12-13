@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					name="image"
-					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+					content="https://samuelepiazzesi.com/public/portait.jpg"
 				/>
 
 				{/* <Facebook Meta Tags --> */}
@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					property="og:image"
-					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+					content="https://samuelepiazzesi.com/public/portait.jpg"
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +62,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+					content="https://samuelepiazzesi.com/public/portait.jpg"
 				/>
 				<link
 					rel="icon"
