@@ -4,9 +4,6 @@ import Head from "next/head";
 import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
-	if (typeof window !== "undefined") {
-	}
-
 	useEffect(() => {
 		if (typeof window !== "undefined") {
 			const resizeScreenVh = () => {
