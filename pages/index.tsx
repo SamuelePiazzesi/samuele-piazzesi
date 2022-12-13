@@ -1,9 +1,7 @@
 import localFont from "@next/font/local";
 import Image from "next/image";
-import emojis from "../public/assets/img/pc.svg";
-import { cards } from "../src/constants";
+
 import Cards from "../src/ui/cards";
-import Card from "../src/ui/cards";
 import Footer from "../src/ui/footer";
 import Header from "../src/ui/header";
 

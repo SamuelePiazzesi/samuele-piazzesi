@@ -48,4 +48,5 @@ main {
 	justify-content: space-evenly;
 	max-width: 968px;
 	margin: auto;
+	height: 100%;
 }
