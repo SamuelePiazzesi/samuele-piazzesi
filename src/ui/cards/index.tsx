@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cards } from "../../constants";
+import { LinkIcon } from "../icons";
 import classes from "./cards.module.css";
 
 const Cards = () => {
@@ -9,8 +10,14 @@ const Cards = () => {
 				{cards.map(({ title, description, id, link }) => (
 					<Link target={"_blank"} href={link} className={classes.card} key={id}>
 						<span className={classes.number}>#{id}</span>
-						<strong>{title}</strong>
-						<p>{description}</p>
+						<article className={classes.article}>
+							<strong>{title}</strong>
+							<p>{description}</p>
+						</article>
+
+						<span className={classes.link}>
+							<LinkIcon />
+						</span>
 					</Link>
 				))}
 			</div>

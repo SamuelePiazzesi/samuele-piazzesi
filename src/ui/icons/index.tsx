@@ -73,3 +73,31 @@ export const EmailIcon = () => {
 		</svg>
 	);
 };
+
+export const LinkIcon = () => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="21"
+			height="23"
+			fill="none"
+			viewBox="0 0 21 23"
+		>
+			<g clipPath="url(#clip0_857_463)">
+				<path
+					fill="#12EAD0"
+					d="M7.84 5.179v1.785h5.64L3.562 17.312l1.206 1.26 9.918-10.349v5.884h1.712V5.18H7.84z"
+				></path>
+			</g>
+			<defs>
+				<clipPath id="clip0_857_463">
+					<path
+						fill="#fff"
+						d="M0 0H20.538V21.429H0z"
+						transform="translate(.139 .714)"
+					></path>
+				</clipPath>
+			</defs>
+		</svg>
+	);
+};
