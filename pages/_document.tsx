@@ -4,6 +4,16 @@ export default function Document() {
 	return (
 		<Html>
 			<Head>
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta title="Samuele Piazzesi Personal Space" />
+				<meta
+					name="description"
+					content="Full Stack Engineer who loves build things."
+				/>
+				<meta name="author" content="Samuele Piazzesi" />
+				<meta name="theme-color" content="#000000" />
+
 				<meta property="og:image" content="/assets/img/about/me.jpg" />
 				<meta property="og:title" content="Samuele Piazzesi" />
 				<meta property="og:site_name" content="Samuele Piazzesi" />
