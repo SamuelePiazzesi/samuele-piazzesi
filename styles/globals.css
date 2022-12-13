@@ -28,7 +28,7 @@ a {
 main {
 	padding: 20px;
 	background: linear-gradient(150.23deg, #303131 2.5%, #b8b8b8 103.82%);
-	min-height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 }
 
 .screen {

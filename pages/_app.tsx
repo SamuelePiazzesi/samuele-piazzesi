@@ -3,6 +3,23 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
+	if (typeof window !== "undefined") {
+		const resizeScreenVh = () => {
+			// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+			let vh = window && window.innerHeight * 0.01;
+			// Then we set the value in the --vh custom property to the root of the document
+			document.documentElement.style.setProperty("--vh", `${vh}px`);
+		};
+
+		resizeScreenVh();
+
+		// We listen to the resize event
+		window.addEventListener("resize", () => {
+			// We execute the same script as before
+			resizeScreenVh();
+		});
+	}
+
 	return (
 		<>
 			<Head>
