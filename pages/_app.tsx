@@ -7,37 +7,45 @@ export default function App({ Component, pageProps }: AppProps) {
 		<>
 			<Head>
 				<title>Samuele Piazzesi Personal Space</title>
-				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 				<meta
 					name="description"
-					content="Full Stack Engineer who loves build things."
+					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
 				/>
-				<meta name="author" content="Samuele Piazzesi" />
-				<meta name="theme-color" content="#000000" />
 
-				<meta property="og:image" content="/assets/img/about/me.jpg" />
-				<meta property="og:title" content="Samuele Piazzesi" />
-				<meta property="og:site_name" content="Samuele Piazzesi" />
-				<meta property="og:url" content="https://samuelepiazzesi.com" />
+				{/* Google / Search Engine Tags --> */}
+				<meta name="name" content="Samuele Piazzesi Personal Space" />
+				<meta
+					name="description"
+					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
+				/>
+				<meta
+					name="image"
+					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+				/>
+
+				{/* <Facebook Meta Tags --> */}
+				<meta property="og:url" content="samuelepiazzesi.com" />
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="Samuele Piazzesi Personal Space" />
 				<meta
 					property="og:description"
-					content="Full Stack Engineer who loves build things."
+					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
 				/>
-				<meta property="og:type" content="website" />
-				<meta property="og:type" content="website" />
-				<meta property="og:image:width" content="1200" />
-				<meta property="og:image:height" content="630" />
+				<meta
+					property="og:image"
+					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+				/>
+
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta property="twitter:domain" content="samuelepiazzesi.com" />
-				<meta property="twitter:url" content="https://samuelepiazzesi.com/" />
-				<meta name="twitter:title" content="SamuelePiazzesi" />
+				<meta name="twitter:title" content="Samuele Piazzesi Personal Space" />
 				<meta
 					name="twitter:description"
-					content="Full Stack Engineer who loves build things."
+					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
 				/>
-				<meta name="twitter:image" content="/assets/img/about/me.jpg" />
+				<meta
+					name="twitter:image"
+					content="https://samuelepiazzesi.com//assets/img/about/me.jpg"
+				/>
 				<link
 					rel="icon"
 					href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>"
