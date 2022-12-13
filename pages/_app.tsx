@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
 			resizeScreenVh();
 
 			window.addEventListener("resize", resizeScreenVh);
+			() => window.removeEventListener("resize", resizeScreenVh);
 		}
 	}, []);
 
