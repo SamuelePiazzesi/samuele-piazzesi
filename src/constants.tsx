@@ -31,7 +31,7 @@ export const cards: Card[] = [
 		id: 4,
 		title: "Rinald",
 		description:
-			"Netflix-ish website made with some cool libraries. Do you know Rinald? He's a cool guy. 🤠",
+			"Netflix-ish website made with some cool libraries. Do you know Rinald? He's a cool guy.",
 		link: "https://rinaldsefa.com",
 	},
 ];
