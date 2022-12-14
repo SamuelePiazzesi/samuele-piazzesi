@@ -24,14 +24,14 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Samuele Piazzesi Personal Space</title>
+				<title>Samuele Piazzesi</title>
 				<meta
 					name="description"
 					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
 				/>
 
 				{/* Google / Search Engine Tags --> */}
-				<meta name="name" content="Samuele Piazzesi Personal Space" />
+				<meta name="name" content="Samuele Piazzesi" />
 				<meta
 					name="description"
 					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				{/* <Facebook Meta Tags --> */}
 				<meta property="og:url" content="samuelepiazzesi.com" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Samuele Piazzesi Personal Space" />
+				<meta property="og:title" content="Personal 🖥️ Space" />
 				<meta
 					property="og:description"
 					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
@@ -52,7 +52,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="Samuele Piazzesi Personal Space" />
+				<meta name="twitter:title" content="Personal 🖥️ Space" />
 				<meta
 					name="twitter:description"
 					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
