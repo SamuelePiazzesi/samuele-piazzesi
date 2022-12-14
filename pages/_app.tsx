@@ -36,10 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
 					name="description"
 					content="Full Stack Engineer who loves build things. I'm a tech passionate, guitar evangelist and food enthusiast. Check out my projects, or write me on Socials"
 				/>
-				<meta
-					name="image"
-					content="https://samuelepiazzesi.com/public/portait.jpg"
-				/>
+				<meta name="image" content="https://samuelepiazzesi.com/portait.jpg" />
 
 				{/* <Facebook Meta Tags --> */}
 				<meta property="og:url" content="samuelepiazzesi.com" />
@@ -51,7 +48,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					property="og:image"
-					content="https://samuelepiazzesi.com/public/portait.jpg"
+					content="https://samuelepiazzesi.com/portait.jpg"
 				/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +59,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://samuelepiazzesi.com/public/portait.jpg"
+					content="https://samuelepiazzesi.com/portait.jpg"
 				/>
 				<link
 					rel="icon"
