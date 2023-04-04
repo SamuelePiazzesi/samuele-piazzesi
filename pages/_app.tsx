@@ -68,16 +68,20 @@ export default function App({ Component, pageProps }: AppProps) {
 					href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>"
 				></link>
 			</Head>
-			<Script strategy="beforeInteractive">
-				{ (function(h,o,t,j,a,r){
+			<Script strategy="afterInteractive" id="hotjar"
+			
+				dangerouslySetInnerHTML={{
+    			__html: `(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:3437322,hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')}
-			</Script>
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
+  			}}
+			/>
+			
 			
 			<Component {...pageProps} />
 			<Analytics />
