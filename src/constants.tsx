@@ -8,10 +8,10 @@ export type Card = {
 export const cards: Card[] = [
 	{
 		id: 1,
-		title: "Voltorb Flip 3D",
+		title: "Nextjs Hotjar",
 		description:
-			"Mingame 3D replica of Voltorb Flip, the magnificent game from Pokémon HeartGold and SoulSilver series.",
-		link: "https://github.com/SamuelePiazzesi/Voltorb-Flip-3D",
+			"Next.js plugin that allows you to easily integrate Hotjar in your Next.js application.",
+		link: "https://github.com/SamuelePiazzesi/nextjs-hotjar",
 	},
 	{
 		id: 2,
@@ -33,5 +33,12 @@ export const cards: Card[] = [
 		description:
 			"Netflix-ish website made with some cool libraries. Do you know Rinald? He's a cool guy.",
 		link: "https://rinaldsefa.com",
+	},
+	{
+		id: 1,
+		title: "Voltorb Flip 3D",
+		description:
+			"Mingame 3D replica of Voltorb Flip, the magnificent game from Pokémon HeartGold and SoulSilver series.",
+		link: "https://github.com/SamuelePiazzesi/Voltorb-Flip-3D",
 	},
 ];
