@@ -9,6 +9,7 @@ specifiers:
   eslint: 8.29.0
   eslint-config-next: 13.0.6
   next: 13.0.6
+  nextjs-hotjar: ^1.0.7
   react: 18.2.0
   react-dom: 18.2.0
   typescript: 4.9.4
@@ -22,6 +23,7 @@ dependencies:
   eslint: 8.29.0
   eslint-config-next: 13.0.6_ha6vam6werchizxrnqvarmz2zu
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+  nextjs-hotjar: 1.0.7_next@13.0.6+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   typescript: 4.9.4
@@ -1507,6 +1509,16 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: false
+
+  /nextjs-hotjar/1.0.7_next@13.0.6+react@18.2.0:
+    resolution: {integrity: sha512-6TFKek6+Yku125mMVwEjMrzBeIpG5FimEDBhid4i3izj5AiMrpQSRW+m0b8ClP5IN/P2iOQ+AmoFXoWWSRgKDA==}
+    peerDependencies:
+      next: '>=11.0.0'
+      react: '>=17.0.0'
+    dependencies:
+      next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
     dev: false
 
   /object-assign/4.1.1:
